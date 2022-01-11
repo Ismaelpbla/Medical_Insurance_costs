@@ -74,7 +74,7 @@ En la figura puede verse, primero a la izquierda un zoom de la parte derecha de 
 
 Como puede apreciarse en la figura la distribución de los outliers de charges tienen una distribución normal. De esta forma podriamos tratarlos como un grupo aparte, un grupo de personas que pagan mas por su seguro. La pregunta es ¿Por qué? Veamoslo comparando las diferentes variables cualitativas en los dos grupos.
 
-![alt text](https://raw.githubusercontent.com/Ismaelpbla/Medical_Insurance_costs/main/Figures/comparative_countplots.png)
+![alt text](https://raw.githubusercontent.com/Ismaelpbla/Medical_Insurance_costs/main/Figures/countplot2.png)
 
 
 En esta figura pueden observarse diferencias en la distribución de la variables cualitativas en los dos grupos que hemos definido:
@@ -86,7 +86,7 @@ En esta figura pueden observarse diferencias en la distribución de la variables
 
 Si hacemos una comparativa con violinplots obtendremos mayor información si cabe:
 
-![alt text](https://raw.githubusercontent.com/Ismaelpbla/Medical_Insurance_costs/main/Figures/violin_plot.png)
+![alt text](https://raw.githubusercontent.com/Ismaelpbla/Medical_Insurance_costs/main/Figures/violin_plot2.png)
 
 - No se observan diferencias significativas al comparar la distribución segun los sexos en ambos grupos
 - Se vuelve a observar la diferencia notable entre numero de fumadores en un grupo y en otro. En el segun grupo además cabe destacar que los no fumadores no presentan valores muy lejos de la media y la mediana. Mientras que el de los fumadores sí. Esto quiere decir que los no fumadores, independientemente de las otras variables suelen pagar lo mismo, mientras que los fumadores tienen una mayor variabilidad en lo que pagan.
