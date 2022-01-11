@@ -1,8 +1,10 @@
 
 # Medical Insurance Costs project
 
-This is a learning project from Codecademy. Where are going to analize the medical insurance costs of 1338 inputs
+This is a learning project from Codecademy. Where are going to analize the medical insurance costs of 1338 inputs.
 
+I am going to use Exploratory Data Analysis to investigate wich ones of the variables have the most incidence in the medical charges.
+After this exploration I found that  variable smoker has the most incidence both alone and with other variables like bmi. 
 
 
 
@@ -52,13 +54,13 @@ Las variables cualitativas del proyecto son: sex, smoker, region, age y children
 
 Los tres primeros se han proyectado mediante graficos de barras con el metodo countplots
 
-![alt text](https://raw.githubusercontent.com/Ismaelpbla/Medical_Insurance_costs/main/Figures/countplot.png)
+![alt text](https://raw.githubusercontent.com/Ismaelpbla/Medical_Insurance_costs/30f03294866592c7d06d106013ca365eaeb948c2/Figures/countplot.png)
 
 En este caso puede observarse que en nuestra base de datos existe una mayor cantidad de personas de la region sudeste, que la proporcion de hombres y mujeres es similar y que la proporcion de fumadores es significativamente mayor que la de los no fumadores
 
-Las otras dos variables cualitativas:children y age se han proyectado a través de un histograma y un grafico de barras con intervalos a través del metodo countplot respectivamente
+Las otra variable cualitativa:age se ha proyectado a través de un histograma.
 
-![alt text](https://raw.githubusercontent.com/Ismaelpbla/Medical_Insurance_costs/main/Figures/histogram.png)
+![alt text](https://raw.githubusercontent.com/Ismaelpbla/Medical_Insurance_costs/6388dcca73616fe1ff045287ebc8cfdc906b9513/Figures/histogram.png)
 
 En estas figuras pueden observarse: Que los rangos de edad son muy diversos pero que sobretodo destaca la población joven cercana a los 20 años. Por otro lado se observa que existe una gran cantidad de gente sin hijos, aunque no es despreciable la cantidad de gente que tiene 1, 2 o hasta 3 hijos. Siendo muy pequeño el porcentaje de personas con 4 o mas hijos
 
@@ -101,3 +103,18 @@ En la figura de arriba hemos proyectado los valores bmi y charges para el primer
 No obstante la información que obtenemos de estas figuras no es del todo relevante, hasta que proyectamos una tercera variable: smoker. Cuando hacemos este vemos dos cosas:
 - Que en el primer grupo hay dos concentraciones de puntos unos (los fumadores) pagan significativamente mas que los otros (naranjas). En ambos cuanto mayor grasa corporal (bmi) tienes, mas vas a pagar, ya que existe una correlación positiva en ambas rectas. Sin embargo la recta que define la relación entre charges y bmi tiene una pendiente mayor en el grupo de fumadores que en el de no fumadores.
 - Que el segundo grupo esta compuesta mayoritariamente por fumadoresteniendo una relación positiva entre bmi y charges. Observese que aunque hay pocos no fumadores y la población por lo tanto no es significativa, la pendiente de la recta es similar a la obtenida en el grupo anterior.
+## CONCLUSIONS
+
+El analisis de los datos nos hace establecer varias conclusiones. La primera, y mas obvia es que no todo el mundo paga lo mismo por su seguro. Pero no solamente sabemos eso de los datos, sabemos además
+que existe un numero de personas que paga significativamente más que el resto. Y de hecho eso lo hemos podido ver en la figura a y en la figura d.
+
+La pregunta que suscita esto es ¿Por qué ese grupo de personas paga mas cantidad que el resto? Para ello, y a través de las comparaciones de las diferentes variables entre el grupo que paga mas y el grupo que paga menos (figuras e y f)
+se puede ver como, pese a las diferecias observables en todas las variables la que mas destaca es la variable smoker. Esta variable de hecho es practicamente opuesta en un grupo y en otro, es decir, que mientras en un grupo la mayoría son
+no fumadores, en el otro son fumadores.
+
+Esto no acaba aqui si no que además podemos ver como el hecho de ser fumador o no tambien influencia significativamente en lo que pagas, sobretodo si tu indice de masa corporal (bmi) es elevado (figura g)
+
+¿Por qué hay un grupo de personas que significativamente pagan mas que otras? Se puede responder que, aunque otras variables como el numero de hijos/as (children) o la edad (age) incrementen el precio del seguro, es la variable smoker la que mas influencia dicho precio.
+De hecho tal y como se puede ver en la figura z, la mayor parte de las personas que componen el grupo que más paga, son fumadoras.
+
+La influencia de la variable smoker es tal, que cuando se se le suman otras variables como el bmi, se puede observar como una persona fumadora cuanto mayor bmi tiene va a pagar hasta dos veces más que otra persona no fumadora con el mismo bmi.
