@@ -60,7 +60,7 @@ In this case it can be seen that in our database there are more people from the 
 
 The other qualitative variable: age has been projected through a histogram.
 #### Figure C
-![alt text](https://raw.githubusercontent.com/Ismaelpbla/Medical_Insurance_costs/6388dcca73616fe1ff045287ebc8cfdc906b9513/Figures/histogram.png)
+![alt text](https://raw.githubusercontent.com/Ismaelpbla/Medical_Insurance_costs/main/Figures/histogram2.png)
 
 In these figures it can be seen that the age ranges are very diverse but that above all the young population around 20 years of age stands out. On the other hand, there is a large number of people without children, although the number of people who have 1, 2 or even 3 children is not negligible. The percentage of people with 4 or more children is very small.
 
